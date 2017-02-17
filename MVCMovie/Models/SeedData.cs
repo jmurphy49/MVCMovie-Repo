@@ -30,48 +30,48 @@ namespace MVCMovie.Models
                         Title = "Doctor Strange",
                         Genre = "Action",
                         ReleaseDate = DateTime.Parse("2016 - 10 - 20"),
-                        Price = 14.99M
-
+                        Price = 14.99M,
+                        Rating="R"
                     },
                     new Movie
                     {
                         Title = "Ghostbusters",
                         Genre = "Comedy",
                         ReleaseDate = DateTime.Parse("1984 - 03 - 13"),
-                        Price = 7.99M
-
+                        Price = 7.99M,
+                        Rating = "PG-13"
                     },
                     new Movie
                     {
                         Title = "Ghostbusters 2",
                         Genre = "Comedy",
                         ReleaseDate = DateTime.Parse("1986 - 02 - 23"),
-                        Price = 7.99M
-
+                        Price = 7.99M,
+                        Rating = "PG-13"
                     },
                     new Movie
                     {
                         Title = "Rio Bravo",
                         Genre = "Western",
                         ReleaseDate = DateTime.Parse("1959 - 04 - 15"),
-                        Price = 3.99M
-
+                        Price = 3.99M,
+                        Rating = "PG-13"
                     },
                     new Movie
                     {
                         Title = "The Last of the Mohicans",
                         Genre = "Western",
                         ReleaseDate = DateTime.Parse("1992 - 08 - 25"),
-                        Price = 3.99M
-
+                        Price = 3.99M,
+                        Rating = "R"
                     },
                     new Movie
                     {
                         Title = "Hugo",
                         Genre = "Fantasy/Mystery",
                         ReleaseDate = DateTime.Parse("2011 - 11 - 23"),
-                        Price = 8.99M
-
+                        Price = 8.99M,
+                        Rating = "PG"
                     }
                    );
                 context.SaveChanges();
